@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enigma V2</title>
+</head>
+<body id="body">
+
+    <div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='title'>
+  <span id="texto">
+    Te Amo Daqui Até A Lua Sz
+  </span>
+  <br>
+  <br>
+  <a href="https://www.youtube.com/watch?v=lnfZa9zDN8c" target="_blank">
+    <button id="button">
+    CLIQUE
+  </button>
+  </a>
+  
+  </a>
+</div>  
+
+    <script>
+        var button = document.getElementById("button")
+        var pergunta = window.prompt("APENAS UMA LETRA")
+        var textosemi = "Você errou a senha, atualiza e tente de novo"
+        if(pergunta == "S") {
+            
+        } else {
+            document.getElementById("texto").innerHTML = textosemi
+            button.style.display = 'none'
+        }
+    
+        
+        
+    </script>
+</body>
+</html>
